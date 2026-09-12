@@ -38,15 +38,15 @@ The LDR senses the amount of light present in the surrounding environment.
 
 ### Circuit Diagram
 
-[![Circuit Diagram](./circuit%20diagram.jpeg)](./circuit%20diagram.jpeg)
+[![Circuit Diagram](./circuit-diagram.jpeg)](./circuit-diagram.jpeg)
 
 ### Light Detected – LED Response
 
-[![Light Detected – LED Response](./Light%20Detected-%20LED%20Response.jpeg)](./Light%20Detected-%20LED%20Response.jpeg)
+[![Light Detected – LED Response](./light-detected.jpeg)](./light-detected.jpeg)
 
 ### No Light Detected – LED OFF
 
-[![No Light Detected – LED OFF](./No%20Light%20Detected%20-%20LED%20OFF.jpeg)](./No%20Light%20Detected%20-%20LED%20OFF.jpeg)
+[![No Light Detected – LED OFF](./no-light-detected.jpeg)](./no-light-detected.jpeg)
 
 ## 🛠️ Tool Used
 
