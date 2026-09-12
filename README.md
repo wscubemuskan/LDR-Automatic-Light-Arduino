@@ -2,30 +2,19 @@
 
 ## 📌 Project Overview
 
-This project demonstrates an **LDR Automatic Light System using Arduino Uno**. The LDR detects the surrounding light intensity, and the Arduino automatically controls an LED according to the detected light condition.
+This project demonstrates an LDR-based Automatic Light System using Arduino Uno. The LDR (Light Dependent Resistor) detects the surrounding light intensity, and the Arduino automatically controls an LED according to the detected light level.
 
 ## 🎯 Objective
 
-To design and simulate an automatic lighting system using an **LDR (Light Dependent Resistor)** and **Arduino Uno**, where the LED automatically responds to changes in light intensity.
+To design and simulate an automatic lighting system that turns the LED ON or OFF based on the surrounding light intensity detected by the LDR.
 
 ## 🔧 Components Used
 
 - Arduino Uno
-- LDR (Light Dependent Resistor)
+- LDR (Photoresistor)
 - LED
 - Resistor
-- Jumper Wires
-- Power Supply
-
-## ⚙️ Working
-
-The LDR senses the surrounding light intensity and provides an analog value to the Arduino through **Analog Pin A0**.
-
-The Arduino compares the LDR reading with a predefined threshold and controls the LED accordingly.
-
-- **Light detected:** LED responds according to the sensor reading.
-- **No light detected:** LED turns ON automatically.
-- The LDR value can also be monitored through the Serial Monitor.
+- Jumper wires
 
 ## 🔌 Pin Connections
 
@@ -38,16 +27,13 @@ The Arduino compares the LDR reading with a predefined threshold and controls th
 ## 📷 Project Images
 
 ### Circuit Diagram
-
-![Circuit Diagram](circuit diagram.jpeg)
+![Circuit Diagram](./circuit%20diagram.jpeg)
 
 ### Light Detected – LED Response
-
-![Light Detected – LED Response](Light Detected- LED Response.jpeg)
+![Light Detected – LED Response](./Light%20Detected-%20LED%20Response.jpeg)
 
 ### No Light Detected – LED OFF
-
-![No Light Detected – LED OFF](No Light Detected – LED OFF.jpeg)
+![No Light Detected – LED OFF](./No%20Light%20Detected%20-%20LED%20OFF.jpeg)
 
 ## 🛠️ Tool Used
 
@@ -55,4 +41,4 @@ Online Arduino Circuit Simulator
 
 ## 📚 Internship Task
 
-**Task 2 – LDR Automatic Light**
+Task 2 – LDR Automatic Light
