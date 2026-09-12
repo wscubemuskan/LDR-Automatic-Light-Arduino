@@ -1,61 +1,58 @@
 # LDR Automatic Light – Task 2
 
-## 📌 Project Overview
+## Project Overview
 
-This project demonstrates an **LDR Automatic Light System using Arduino Uno**. The LDR detects the surrounding light intensity, and the Arduino automatically controls an LED according to the detected light level.
+This project demonstrates an **LDR Automatic Light System using Arduino Uno**. The system detects the surrounding light intensity using an LDR (Light Dependent Resistor) and automatically controls an LED according to the detected light condition.
 
-## 🎯 Objective
+## Objective
 
-To design and simulate an automatic lighting system using an **LDR (Light Dependent Resistor)** and **Arduino Uno**, where the LED turns ON when the light intensity is low and turns OFF when the light intensity is high.
+To design and simulate an automatic lighting system using an **LDR and Arduino Uno**, where the LED responds automatically to changes in light intensity.
 
-## 🔧 Components Used
+## Components Used
 
 - Arduino Uno
-- LDR (Photoresistor)
+- LDR (Light Dependent Resistor)
 - LED
 - Resistor
 - Jumper Wires
-- USB Power Supply
+- Power Supply
 
-## ⚙️ Working
+## Working
 
-The LDR senses the surrounding light intensity and sends an analog value to the Arduino through **A0**.
+The LDR senses the surrounding light intensity and sends the corresponding analog value to the Arduino through **A0**.
 
-- When the LDR value is **500 or less**, the LED turns **ON**.
-- When the LDR value is **greater than 500**, the LED turns **OFF**.
-- The light intensity value is displayed on the **Serial Monitor**.
+The Arduino compares the sensor value with a predefined threshold and controls the LED accordingly.
 
-## 🔌 Pin Connections
+- When the detected light condition meets the required threshold, the LED responds accordingly.
+- The LED status changes automatically based on the LDR reading.
+- The sensor value can be monitored through the Serial Monitor.
+
+## Pin Connections
 
 | Component | Arduino Pin |
-|-----------|-------------|
+|---|---|
 | LED | Digital Pin 13 |
 | LDR | Analog Pin A0 |
 | LDR Circuit | 5V and GND |
 
-## 📷 Project Simulation
+## Project Images
 
-### Circuit Diagram – Light Detection
+### Circuit Diagram
 
-![Circuit Diagram 1](circuit-diagram-1.jpg)
+![Circuit Diagram](circuit-diagram-1.jpg)
 
-*Figure 1: LDR Automatic Light circuit simulation showing the Arduino Uno, LDR, LED, resistor, and wiring connections.*
+### Light Detected – LED Response
 
-### Circuit Diagram – Light Condition
+![Light Detected – LED Response](circuit-diagram-2.jpg)
 
-![Circuit Diagram 2](circuit-diagram-2.jpg)
+### No Light Detected – LED OFF
 
-*Figure 2: LDR Automatic Light simulation showing the circuit under a different light condition.*
+![No Light Detected – LED OFF](circuit-diagram-3.jpg)
 
-### Arduino Code & Simulation
+## Tool Used
 
-![Arduino Code](arduino-code.jpg)
+Online Arduino Circuit Simulator
 
-*Figure 3: Arduino code and simulation interface used for the LDR Automatic Light project.*
-
-## 🛠️ Tool Used
-Tinkercad
-
-## 📚 Internship Task
+## Internship Task
 
 **Task 2 – LDR Automatic Light**
