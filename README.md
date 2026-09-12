@@ -1,37 +1,61 @@
-LDR Automatic Light using Arduino
+# LDR Automatic Light – Task 2
 
-Internship Task 2
+## 📌 Project Overview
 
-This project demonstrates an automatic lighting system using an LDR (Light Dependent Resistor) and Arduino.
+This project demonstrates an **LDR Automatic Light System using Arduino Uno**. The LDR detects the surrounding light intensity, and the Arduino automatically controls an LED according to the detected light level.
 
-Objective
+## 🎯 Objective
 
-To automatically turn the light ON when the surrounding environment becomes dark and turn it OFF when sufficient light is available.
+To design and simulate an automatic lighting system using an **LDR (Light Dependent Resistor)** and **Arduino Uno**, where the LED turns ON when the light intensity is low and turns OFF when the light intensity is high.
 
-Components Used
+## 🔧 Components Used
 
 - Arduino Uno
-- LDR (Light Dependent Resistor)
+- LDR (Photoresistor)
 - LED
 - Resistor
-- Breadboard
-- Jumper wires
+- Jumper Wires
+- USB Power Supply
 
-Working
+## ⚙️ Working
 
-The LDR detects the intensity of surrounding light. Arduino reads the LDR value and controls the LED accordingly.
+The LDR senses the surrounding light intensity and sends an analog value to the Arduino through **A0**.
 
-- In bright conditions → LED OFF
-- In dark conditions → LED ON
+- When the LDR value is **500 or less**, the LED turns **ON**.
+- When the LDR value is **greater than 500**, the LED turns **OFF**.
+- The light intensity value is displayed on the **Serial Monitor**.
 
-Applications
+## 🔌 Pin Connections
 
-- Automatic street lights
-- Smart home lighting
-- Energy-saving lighting systems
-- Outdoor lighting automation
+| Component | Arduino Pin |
+|-----------|-------------|
+| LED | Digital Pin 13 |
+| LDR | Analog Pin A0 |
+| LDR Circuit | 5V and GND |
 
-Internship
+## 📷 Project Simulation
 
-Task: 2 – LDR Automatic Light
-Project Type: Arduino-based Embedded System
+### Circuit Diagram – Light Detection
+
+![Circuit Diagram 1](circuit-diagram-1.jpg)
+
+*Figure 1: LDR Automatic Light circuit simulation showing the Arduino Uno, LDR, LED, resistor, and wiring connections.*
+
+### Circuit Diagram – Light Condition
+
+![Circuit Diagram 2](circuit-diagram-2.jpg)
+
+*Figure 2: LDR Automatic Light simulation showing the circuit under a different light condition.*
+
+### Arduino Code & Simulation
+
+![Arduino Code](arduino-code.jpg)
+
+*Figure 3: Arduino code and simulation interface used for the LDR Automatic Light project.*
+
+## 🛠️ Tool Used
+Tinkercad
+
+## 📚 Internship Task
+
+**Task 2 – LDR Automatic Light**
